@@ -1,0 +1,65 @@
+/*Voy a jugar con los colores del fondo*/
+
+body{
+    background-color:rgb(221, 182, 250);
+}
+
+#centrar{
+    background-color: rgb(188, 224, 255);
+}
+
+
+/*Voy a ajustar el texto al centro*/
+#centrar{
+    width: 60rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+/*Voy a poner margen*/
+#margen{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.3rem;
+    padding-top: 1rem;
+}
+
+
+/*Voy a ajustar el tamaño de la imagen*/
+img{
+    width: 20rem;
+    height: 20rem;
+}
+
+/*Voy a poner los pies de pagina*/
+
+.pie{
+    margin-top: 0.5px;
+}
+
+/*Voya mover la primera imagen a la izquierda*/
+.imagenes{
+    text-align: left;
+    margin-left: 2rem;
+}
+
+/*Voya mover la segunda imagen a la derecha*/
+
+.imagenes2{
+    text-align: right;
+    margin-right: 2rem;
+}
+
+
+/*Volver a la pagina principal*/
+
+a{
+    text-decoration: none;
+    color:coral;
+}
+#enlace{
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 25px;
+    
+}

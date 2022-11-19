@@ -1,0 +1,33 @@
+form{
+    display: flex;
+    flex-direction: column;
+    max-width:17rem;
+    margin-left:  auto;
+    margin-right:  auto;
+    text-align: center;
+}
+
+label,select,textarea{
+    margin-top: 0.7rem;
+}
+
+/*Voy a ajustar el texto al centro*/
+#centrar{
+    width: 60rem;
+    margin: auto;
+    border-radius: 1rem;
+    background-color: rgb(188, 224, 255);
+    
+}
+
+/*Voy a poner margen*/
+#margen{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+h1{
+    text-align: center;    
+}

@@ -1,0 +1,105 @@
+/*Vamos a centrar el texto*/
+#centrarTabla {
+    margin-left: 4rem;
+}
+
+body {
+    text-align: center;
+}
+
+#main {
+    width: 70rem;
+    margin: auto;
+    background: linear-gradient(#FF9026, #FFC38A);
+    border-radius: 1rem;
+}
+
+#margen {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+/*Voy a ajustar el tamaño de la imagen*/
+
+#imgP {
+    width: 35rem;
+    height: 35rem;
+    margin-top: 2rem;
+}
+
+/*Le damos borde a las tablas*/
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 3rem;
+}
+
+td,
+th {
+    width: 15rem;
+}
+
+th {
+    height: 3.5rem;
+}
+
+td {
+    height: 2rem;
+}
+
+/*Voy a posicionar los enlaces a las otras paginas y hacerlos mas bonitos*/
+
+#about {
+    margin-right: 30rem;
+}
+
+#gallery,
+#about {
+    text-decoration: none;
+
+
+}
+
+a {
+    font-size: 25px;
+    color: rgb(0, 69, 129);
+}
+
+/*Voy a darle una animacion al h1*/
+
+h1 {
+    animation:agrandar 2s;
+    font-size: 20px;
+    animation-delay: 1s;
+}
+
+@keyframes agrandar {
+    0% {
+        font-size: 20px;
+    }
+
+    20% {
+        font-size: 30px;
+    }
+
+    40% {
+        font-size: 20px;
+    }
+
+    60% {
+        font-size: 30px;
+    }
+
+    80% {
+        font-size: 20px;
+    }
+
+    90% {
+        font-size: 25px;
+    }
+
+}

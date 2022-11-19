@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact.js" defer></script>
+</head>
+<body>
+<div id="centrar">
+    <div id="margen">
+        <h1>Si desea que le contactemos rellene el siguiente formulario</h1>
+        
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="nombre">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="lname">
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="lname">
+            <p> Seleccione un pais:
+            <select name="pais" id="pais">
+                <option value="españa">España</option>
+                <option value="francia">Francia</option>
+                <option value="Alemania">Alemania</option>
+            </select>
+        </p>
+            <textarea name="mensaje" cols="30" rows="10"></textarea>
+           <p> Acepto los terminos <input  type="checkbox" name="condiciones"></p>
+           <input type="button" value="Enviar formulario" id="boton">
+          </form>
+    </div>
+</div>
+    
+</body>
+</html>
