@@ -1,7 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 form{
     display: flex;
     flex-direction: column;
@@ -19,6 +15,7 @@ label,select,textarea{
 #centrar{
     width: 60rem;
     margin: auto;
+    margin-top: 13rem;
     border-radius: 1rem;
     background-color: rgb(188, 224, 255);
     
