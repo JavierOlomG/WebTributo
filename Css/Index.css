@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /*Vamos a centrar el texto*/
 #centrarTabla {
     margin-left: 4rem;
