@@ -1,19 +1,15 @@
-/*
-var nombre = document.getElementById("nombre");
-
-console.log(nombre);
-
 document.getElementById("boton").onclick = function (){
-    if (nombre == "Javi"){
+    let nombre = document.getElementById("nombre").value;
+    let email = document.getElementById("email").value;
+    if (nombre == ""){
         alert("Rellene el nombre");
-        console.log(nombre);
-    }else{
-    alert("Formulario Enviado");
-    console.log(nombre);
+    }else if(email == ""){
+        alert("Rellene el email");
+    }
+    else{
+    alert("Enhorabuena " +  nombre +" Formulario Enviado");
 }
 };
-*/
 
-document.getElementById("boton").onclick = function(){
-    alert("Formulario Enviado");
-}
+
+
